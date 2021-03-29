@@ -103,13 +103,11 @@ input, select, textarea {
 
 	body {
 		background-color: #1c1d1c;
-		background-image: url("../../images/overlay.png"), url("../../images/17.jpg");
-		background-size: auto,
- cover;
-		background-attachment: fixed,
- fixed;
-		background-position: center,
- center;
+		background-image: url("images/top-3200.svg"), url("../../images/overlay.png"), url("../../images/17.jpg");
+		background-size: 3200px 1000px, auto,					cover;
+		background-attachment: scroll, scroll, fixed;
+		background-position: bottom center,					top left,				center center;
+		background-repeat: repeat-x,	
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3731,7 +3729,7 @@ body.is-menu-visible #menu {
 /* Banner */
 
 	#banner {
-		padding: 13em 0 10em 0 ;
+		padding: 8em 0 10em 0 ;
 		background-color: transparent;
 	}
 
@@ -4053,7 +4051,7 @@ body.is-menu-visible #menu {
 		}
 
 		.wrapper .inner {
-			padding: 4em 3rem 1em 3rem ;
+			padding: 2.66em 3rem 1em 3rem ;
 			margin: 0 auto;
 			border-bottom: solid 1px rgba(224, 224, 224, 0.938)
 			
@@ -4472,8 +4470,8 @@ body.is-menu-visible #menu {
 	#footer input[type="email"],
 	#footer select,
 	#footer textarea {
-		
-	}
+		color: rgba(255, 255, 255, 0.8);
+		}
 
 		#footer input[type="text"]:focus,
 		#footer input[type="password"]:focus,

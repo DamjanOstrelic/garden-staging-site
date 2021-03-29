@@ -7,7 +7,7 @@
 (function($) {
 
 	var	$window = $(window),
-		$body = $('body'),
+		$body = $('body');
 		$headerMobile = $('#header-mobile'),
 		$headerDesktop = $('#header-desktop'),
 		$banner = $('#banner');
